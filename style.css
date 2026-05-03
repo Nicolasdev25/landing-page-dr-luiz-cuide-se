@@ -12,6 +12,7 @@
   --branco: #ffffff;
   --bg-icon: #f0ece6;
   --content-width: 1200px;
+  --h1-color:#E7CFAB;
 }
 
 html {
@@ -50,6 +51,7 @@ h3,
 h4,
 button {
   font-family: "Montserrat", sans-serif;
+  font-weight: 100;
 }
 
 p,
@@ -90,7 +92,8 @@ button {
 }
 
 .hero-section {
-  background-image: url(./assets/background-hero.webp);
+  
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(77, 67, 67, 0.7) 100%),url(./assets/background-hero.webp);
   background-size: cover;
   background-position: 58% center;
   min-height: 450px;
@@ -107,31 +110,38 @@ button {
   font-family: "Permanent Marker", cursive;
   font-weight: bold;
   font-style: normal;
-  color: var(--primary-blue);
+  color:var(--h1-color);
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .hero-paragraph {
   font-size: 0.8rem;
-  color: var(--primary-blue);
+  color: var(--branco);
   font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
 }
 
 .hero-description .hero-sub-title {
-  color: var(--primary-blue);
+  
+  color: var(--branco);
   padding: 10px 0;
   text-align: left;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
 }
 .hero-description p {
   font-size: 1rem;
   max-width: 250px;
   text-align: left;
   padding-bottom: 5px;
-  color: black;
-  font-weight: bold;
+  color: var(--branco);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);;
+}
+.hero-description strong{
+  color: var(--branco);
 }
 
 .btn-buy-book {
@@ -177,7 +187,6 @@ button {
   text-align: center;
   color: var(--branco);
   font-size: 0.85rem;
-  font-weight: 600;
   line-height: 1.45;
 }
 .card-descrition strong {
@@ -193,6 +202,7 @@ button {
 
 .about h4 {
   padding: 10px;
+  font-weight: 100;
 }
 
 .sub-about {
@@ -209,6 +219,10 @@ button {
   font-size: 2.4rem;
   margin: 0 10px 0 0;
 }
+.sub-about h4{
+  font-size: small;
+}
+
 
 .benefits-book {
   background-color: var(--branco);
@@ -230,7 +244,6 @@ button {
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 12px;
-  font-weight: bold;
 }
 
 .benefits-book li::before {
@@ -261,7 +274,8 @@ button {
 
 .localization h4 {
   color: var(--primary-blue);
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  line-height: 0.7cm;
 }
 
 .description-localization {
@@ -336,12 +350,13 @@ button {
   font-size: 2rem;
   color: var(--primary-blue);
   margin-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 .cta-footer h3 {
   font-size: 1.5rem;
   color: var(--primary-blue);
+  padding-bottom: 10px;
 }
 
 .cta-footer p {
