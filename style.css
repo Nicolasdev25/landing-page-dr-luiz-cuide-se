@@ -13,7 +13,6 @@
   --bg-icon: #f0ece6;
   --content-width: 1200px;
   --h1-color:#E7CFAB;
-  --hero-image-url: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80");
 }
 
 html {
@@ -94,7 +93,7 @@ button {
 
 .hero-section {
   
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(77, 67, 67, 0.7) 100%), var(--hero-image-url);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(77, 67, 67, 0.7) 100%),url(./assets/background-hero.webp);
   background-size: cover;
   background-position: 58% center;
   min-height: 450px;
@@ -337,7 +336,7 @@ button {
 .cta-footer {
   background-image:
     linear-gradient(rgba(252, 250, 245, 0.72), rgba(252, 250, 245, 0.72)),
-    var(--hero-image-url);
+    url(./assets/background-hero.webp);
   background-size: 180%;
   background-position: left 62%;
   background-repeat: no-repeat;
