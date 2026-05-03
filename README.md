@@ -2,7 +2,8 @@
 
 Uma landing page moderna e responsiva desenvolvida para a divulgação e venda do e-book **"Cuide-se: A Conexão Invisível entre Emoções, Sono e Saúde Cardiovascular-Renal-Metabólica"**.
 
-!<img width="1408" height="3042" alt="Gemini_Generated_Image_73xeke73xeke73xe" src="https://github.com/user-attachments/assets/4a016533-9ed8-4374-b3a1-ca58cf09ac9f" />
+!<img width="383" height="863" alt="project" src="https://github.com/user-attachments/assets/07c6bc8b-a82c-43b8-b373-cdf13433478d" />
+
 (https://raw.githubusercontent.com/Nicolasdev25/landing-page-dr-luis-cuide-se/main/assets/nascfrontstudio-logo.png) ## 📝 Sobre o Projeto
 
 Este projeto foi criado com o objetivo de apresentar os benefícios e pilares do livro escrito por um médico com mais de 25 anos de experiência. A página foca em conversão (venda via Amazon) e em transmitir uma mensagem de saúde humanizada e equilíbrio.
